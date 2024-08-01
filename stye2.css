@@ -862,7 +862,7 @@ footer  {
 
 
     .branding .h3{
-    background:whitesmoke;
+    /* background:whitesmoke; */
     font-size: 20px;
     font-weight: bold;
     color:blue;
@@ -897,7 +897,7 @@ footer  {
 
 .slide-show {
     min-height: 300px; 
-    margin-top: 100%;
+    margin-top: 120%;
     margin-left: 10%;
     width:100%; 
 
@@ -1163,7 +1163,7 @@ figcaption{
 
     /* background: rgba(0,0,0,0.1);  */
         min-height: 800px;
-        margin-left: 40px;
+        margin-left: 10px;
         color:whitesmoke;
          padding:40px;
          margin-top: 10px;
