@@ -340,6 +340,12 @@ span{
      border-bottom: solid 2px red;
      
  }
+
+
+
+ .branding-showcase{
+    margin-left: -35%;
+ }
  
  
  
@@ -350,7 +356,7 @@ span{
       padding:10px;
      animation:slide 40s linear infinite;
       /* position:relative;  */
-      margin-left: -25px;
+      margin-left: 10%;
      
  }
 
@@ -1092,6 +1098,16 @@ figcaption{
 
      
  }
+
+
+
+
+ .branding-showcase{
+    margin-left: -40%;
+ }
+
+
+
  
  
  
@@ -1102,7 +1118,7 @@ figcaption{
       padding:10px;
      animation:slide 40s linear infinite;
       /* position:relative;  */
-      margin-left: -25px;
+      margin-left: 3%;
       margin-top: 20px;
      
  }
