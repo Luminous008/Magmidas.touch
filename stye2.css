@@ -821,14 +821,14 @@ footer  {
 
 @media(max-width:600px) and (orientation:landscape){
     .container-body {
-        width:100%; 
+        width:80%; 
         margin:auto;
     }
 }
 
 @media(max-width:600px) and (orientation:portrait){
     .container-body {
-        width:100%; 
+        width:80%; 
         margin:auto;
     }
 
@@ -860,7 +860,7 @@ footer  {
     font-size: 20px;
     font-weight: bold;
     color:blue;
-    margin-top:50px;
+    margin-top:60px;
     /* margin-left: 50%; */
     width:100%;
     padding: 20px;
@@ -876,8 +876,8 @@ footer  {
     background-color: whitesmoke;
     font-size: 20px;
     color:blue;
-    margin-top: 25%;
-     margin-left: 25px;
+    margin-top: 30%;
+     margin-left: 20px;
     width:100%;
     padding: 20px;
     /* margin-bottom: 70%; */
@@ -891,7 +891,7 @@ footer  {
 
 .slide-show {
     min-height: 300px; 
-    margin-top: 78%;
+    margin-top: 100%;
     margin-left: 10%;
     width:100%; 
 
@@ -905,17 +905,9 @@ footer  {
 
     border:blue 1px solid;
    background-color: skyblue;
-    
-       /* float:left; */
        background-position: center;
-       /* background: cover; */
-        /* width:1200px;
-       height:600px;    */
-        /* margin-bottom:20px; */
-       /* padding: 20px; */
        width:80%;
-       margin-top: -60%;
-       
+       margin-top: -75%;
        margin-left: 5%;
 }
 
@@ -925,7 +917,7 @@ figcaption{
     color:gray;
     margin-left:40px;
     font-weight: bold;
-    margin-left: 5%;
+    margin-left: 1%;
     padding: 20px;
 
     margin-top: -10%;
@@ -1025,11 +1017,11 @@ figcaption{
 
 .branding-media a{
 
-    margin-left:20px;
+    margin-left:15px;
 }
 
 .link{
-    margin-left:30%;
+    margin-left:23%;
 }
 
 
@@ -1076,6 +1068,7 @@ figcaption{
     padding: 20px;
     color:whitesmoke;
     width:70%;
+    margin-bottom: 20px;
     
 
 }
@@ -1090,13 +1083,13 @@ figcaption{
 
 
 .showcase{
-    min-height: 800px;
+    min-height: 1000px;
      background:whitesmoke;
-     margin-top: 5%;
+     margin-top: 50%;
      border-top: solid 2px red;
-     margin-bottom: 50px;
+     margin-bottom: 20px;
      border-bottom: solid 2px red;
-     margin-top: 90px;
+
      
  }
  
@@ -1110,6 +1103,7 @@ figcaption{
      animation:slide 40s linear infinite;
       /* position:relative;  */
       margin-left: -25px;
+      margin-top: 20px;
      
  }
 
@@ -1138,6 +1132,54 @@ figcaption{
 
 
 
+
+
+
+
+
+
+
+
+/* Order page*/
+
+
+.branding-order{
+
+    /* background: rgba(0,0,0,0.1);  */
+        min-height: 800px;
+        margin-left: 40px;
+        color:whitesmoke;
+         padding:40px;
+         margin-top: 10px;
+        font-size: 20px;
+        width:100%; 
+        background:url(cake1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    }
+
+
+
+
+
+    contact-real {
+        min-height: 300px;
+         margin-top: 0%;
+        /* background:url(../img/cake1.jpg);
+        background-size:cover;
+        background-repeat: no-repeat; */
+    
+         background: rgba(0,0,0,0.6);
+         width:100%;
+         margin-left: 40px;
+        
+    }
+
+
+
+
+
  
 
 
@@ -1156,7 +1198,7 @@ figcaption{
 
 @media(min-width:601px) and (max-width:768px){
     .container-body {
-        width:100%; 
+        width:80%; 
         margin:auto;
     }
 } 
