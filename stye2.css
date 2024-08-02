@@ -871,8 +871,8 @@ footer  {
      margin-left: 0%;
     width:100%;
     padding: 10px;
-    /* position:relative; */
-    /* animation: slide 40s linear infinite;  */
+    position:relative;
+    animation: slide 40s linear infinite; 
 
 
     }
@@ -882,8 +882,9 @@ footer  {
 
 
      @keyframes slide{
-    /* from{l/eft:0;} */
-    /* to {left: 100%;} Adjust the offset for desired sliding distance */
+    /* from{left:0;} */
+    /* to {left: 100%;}   */
+    /* Adjust the offset for desired sliding distance */
 
     } 
 
@@ -909,7 +910,7 @@ footer  {
 
     .slide-show {
     min-height: 300px; 
-    margin-top: 100%;
+    margin-top: 110%;
     margin-left: -3%;
     width:100%; 
 
@@ -1065,7 +1066,7 @@ footer  {
 
     .branding-about figure img{
     margin-left: 17%;
-    margin-top: 30px;
+    margin-top: 20%;
     width: 70%;
     padding: 10px;
     }
@@ -1075,7 +1076,7 @@ footer  {
     padding: 10px;
     color:whitesmoke;
     font-size: 15px;
-    margin-top: 8px;
+    margin-top: 5%;
     }
 
 
@@ -1086,7 +1087,7 @@ footer  {
     padding: 20px;
     color:whitesmoke;
     width:80%;
-    /* margin-bottom: 20px; */
+    margin-top: 10%; 
     
 
     }
@@ -1101,11 +1102,11 @@ footer  {
 
 
         .showcase{
-    min-height: 1000px;
+    min-height: 600px;
      background:whitesmoke;
      margin-top: 50%;
      border-top: solid 2px red;
-     margin-bottom: 20px;
+     margin-bottom: 30%;
      border-bottom: solid 2px red;
 
      
@@ -1137,6 +1138,13 @@ footer  {
 
 
 
+    .branding-showcase .box h3{
+        font-size: 20px;
+        font-size: bold;
+    }
+
+
+
      /*Product  1 */
 
 
@@ -1144,6 +1152,53 @@ footer  {
     min-height: 1400px;
     background-color: whitesmoke;
     }
+
+
+
+
+    /* boxes */
+
+
+
+.boxes{
+    margin-top:20px;
+     min-height:400px;  
+     /* background-color:blue; */
+     justify-content: center;
+
+
+}
+
+
+
+/*boxes1*/
+
+figure .box-1{
+
+    float:left;
+    width:100px;
+    padding:20px; 
+    /* border:3px solid blue; */
+     margin-left:150px; 
+     margin-top: 50px;
+    /* width:100px; */
+    cursor:pointer;
+    justify-content: center;
+
+
+}
+
+
+figure .box-1 .img{
+
+margin-left:5px; 
+/* width:200px; */
+/* border:2px solid blue; */
+width:100px;
+justify-content: center;
+
+}
+
 
 
 
